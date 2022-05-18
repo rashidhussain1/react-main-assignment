@@ -1,0 +1,136 @@
+.all-courses {
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+}
+.course_title{
+    font-weight: 600;
+}
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allcourses_header {
+    background-color: black;
+    display: flex;
+    height: 82px;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 22px;
+    align-items: center;
+}
+.courses_header_text {
+    color: white;
+    background: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.react_img {
+    height: 80px;
+}
+
+.courses-left {
+    width: 70%;
+}
+.text{
+
+}
+.left_top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.courses-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.course-card {
+    display: flex;
+    border-radius: 3px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    width: 100%;
+    align-items: center;
+}
+.card_img {
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    background: gainsboro;
+}
+.button_cart {
+    width: 145px;
+    height: 40px;
+    border: 0px;
+    color: white;
+
+    height: 30px;
+    background: #FF6738 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+}
+.button_topic {
+    border: 0px;
+    color: white;
+    background: #FF6738;
+    border-radius: 3px;
+}
+.mycart_tab {
+    display: flex;
+    border-radius: 3px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 90%;
+    align-items: flex-start;
+    height: 475px;
+    flex-direction: column;
+}
+.mycart_text {
+    box-shadow: 0px 2px 0px 0px #8888885e;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.mycart_contents {
+    font-size: 14px;
+    color: gray;
+    box-shadow: 0px 2px 0px 0px #88888878;
+    padding-bottom: 5px;
+    height: 350px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.mycart_value_text {
+    font-size: 12px;
+   
+    margin-top: 5px;
+}
+.mycart_value {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.cart_value{
+    font-size: 25px;
+    font-weight: 800;
+}

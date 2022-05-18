@@ -1,0 +1,93 @@
+.user_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_container {
+    display: flex;
+    width: 80%;
+}
+.form_left{
+
+}
+.form_right {
+    width: 80%;
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.profile_pic {
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.name {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_name {
+    border: 0;
+    margin-top: 5px;
+    background: #e5e8f1db;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 150px;
+}
+.name_text {
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.about {
+    margin-top: 20px;
+    width: 80%;
+}
+.input_about {
+    border: 0;
+    margin-top: 5px;
+    background: #e5e8f1db;
+    width: 70%;
+    height: 130px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.interest{
+    margin-top: 20px;
+}
+.save_box {
+    display: flex;
+    justify-content: flex-end;
+    width: 98%;
+    padding: 5px;
+}
+.label_text {
+    font-family: Montserrat;
+}
+.student_professional{
+    margin-top: 20px;
+}
+.exp_box {
+    border: 1px solid #8080804d;
+    padding-left: 10px;
+    width: 95%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.button_save {
+    width: 119px;
+  
+    border: 0px;
+    color: white;
+    height: 30px;
+    background: #FF6738;
+    border-radius: 2px;
+    opacity: 1;
+}
