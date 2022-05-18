@@ -88,9 +88,11 @@ export default function () {
               </p>
             </div>
             <div className="card_creator">{course.author}</div>
-            <div className="card_star">star</div>
-            <div className="card_discount_price">Rs {course.curr_price}/-</div>
-            <div className="card_price">Rs {course.org_price}/-</div>
+            <div className="card_star">
+                <img className="star_img" src="https://media.istockphoto.com/vectors/star-icon-vector-illustration-vector-id1135769825?k=20&m=1135769825&s=612x612&w=0&h=6ZHmst4kzRPppl4XCC57ZlIMspT42ePaqzf5X3XPwDI="/>
+            </div>
+            <div className="card_discount_price">Rs_{course.curr_price}/-</div>
+            <div className="card_price"><del>Rs{course.org_price}/-</del></div>
             <div className="card_cart_button">
               <a href="#divOne">
                 <button className="button_cart" type="button" >

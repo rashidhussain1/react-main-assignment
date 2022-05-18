@@ -35,7 +35,7 @@ function CourseDetails() {
         />
       </div>
       <div className="nav_path">
-        <span className="text1">All Courses</span> >{" "}
+        <span className="text1">All Courses</span> {">"}
         <span className="text2">Responsive Design Course</span>
       </div>
 
@@ -89,12 +89,50 @@ function CourseDetails() {
             <p className="text9"> RS 920/- </p>
             <p className="text10"> 8 hrs left for this price </p>
             <p className="two_btn">
+              <a href="#divOne">
               <button className="button2" type="button">
                 ADD TO CART{" "}
               </button>
+              </a>
+
+              <div className="overlay" id="divOne">
+            <div className="pop_up">
+              <div className="top_header">X</div>
+              <div className="add_to_wishlist_text">
+                <p>Sucessfully added to cart</p>
+              </div>
+              <NavLink to={"/"}>
+                <button className="ok_button" type="button">
+                  OK
+                </button>
+              </NavLink>
+            </div>
+          </div> 
+
+
+
+          <a href="#divTwo">
               <button className="button3" type="button">
                 ADD TO WISHLIST{" "}
               </button>
+            </a>
+
+
+              <div className="overlay" id="divTwo">
+            <div className="pop_up">
+              <div className="top_header">X</div>
+              <div className="add_to_wishlist_text">
+                <p>Sucessfully added to wishlist</p>
+              </div>
+              <NavLink to={"/"}>
+                <button className="ok_button" type="button">
+                  OK
+                </button>
+              </NavLink>
+            </div>
+          </div> 
+
+
             </p>
           </div>
         </div>

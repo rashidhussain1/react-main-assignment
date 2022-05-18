@@ -66,17 +66,19 @@ export default function () {
                     </p>
                   </div>
                   <div className="card_creator">{course.author}</div>
-                  <div className="card_star">star</div>
                   <div className="card_discount_price">
                     Rs {course.curr_price}/-
                   </div>
-                  <div className="card_price">Rs {course.org_price}/-</div>
+                  <div className="card_price"><del>Rs{course.org_price}/-</del></div>
                   <div className="card_cart_button">
                     <a href="#divOne">
                       <button className="button_cart" type="button">
                         ADD TO CART
                       </button>
                     </a>
+                  </div>
+                  <div className="del_bin">
+                      <i class='fa fa-trash-o' ></i>
                   </div>
                   <div className="card_arrow">
                     <NavLink to={"/coursedetails"}> {">"}</NavLink>
