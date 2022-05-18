@@ -99,7 +99,7 @@ export default function () {
               </a>
             </div>
             <div className="card_arrow">
-              <NavLink to={"/coursedetails"}> {">"}</NavLink>
+              <NavLink to={"/"+course.id}> {">"}</NavLink>
             </div>
           </div>
 
